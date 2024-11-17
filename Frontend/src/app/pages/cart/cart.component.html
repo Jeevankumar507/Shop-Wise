@@ -1,0 +1,21 @@
+<p>cart works!</p>
+<!-- cart.component.html -->
+
+<div class="cart-container">
+    <h2>Your Shopping Cart</h2>
+    <div *ngIf="cartItems.length > 0; else emptyCart">
+      <div *ngFor="let item of cartItems" class="cart-item">
+        <img [src]="item.imageUrl" alt="{{ item.name }}" class="cart-item-image">
+        <div class="cart-item-details">
+          <h3>{{ item.name }}</h3>
+          <p class="cart-item-price">${{ item.price }}</p>
+          <button (click)="removeFromCart(item)" class="remove-from-cart-button">Remove from Cart</button>
+        </div>
+      </div>
+      <button (click)="goToPayment()" class="buy-now-button">Buy Now</button>
+    </div>
+    <ng-template #emptyCart>
+      <p>Your cart is empty.</p>
+    </ng-template>
+  </div>
+  

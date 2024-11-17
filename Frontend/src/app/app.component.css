@@ -1,0 +1,155 @@
+.textBlur {
+    color: transparent;
+    text-shadow: 0 0 1px #202122;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.box-shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-fluid {
+    height: 300px !important;
+}
+
+.cart::after {
+    display: none !important;
+}
+ 
+.dropdown-menu{
+    top: 100%;
+    left: unset !important;
+    right: 0px !important;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.CartContainer {
+    width: 300px;
+    padding: 5px;
+}
+
+.go-to-cart-home {
+    background-color: #f0a500; /* Update the background color to a food-looking color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .go-to-cart-home:hover {
+    background-color: #e69100; /* Update the hover background color to a darker food-looking color */
+  }
+  
+  .navbar {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f5f5dc; /* Update the background color to a light food-looking color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: auto; /* Move the company name to the left of the nav bar */
+  }
+  
+  .navbar-nav {
+    align-items: center;
+    justify-content: center; /* Center the buttons in the nav bar */
+  }
+  
+  .nav-link {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .nav-link:hover {
+    color: #e69100; /* Update the hover text color to a darker food-looking color */
+  }
+  
+  .nav-link img {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  .payment-heading-container {
+      text-align: center;
+      margin: 20px 0; /* Adjust margin as needed */
+    }
+    /* Add these styles to your component's CSS file or global styles file */
+  
+  .go-to-cart-home {
+      background-color: #2196f3;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .go-to-cart-home:hover {
+      background-color: #0b7dda;
+    }
+    
+    /* Add these styles to your component's CSS file or global styles file */
+  
+  .go-to-cart-home, .add-to-cart-button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .go-to-cart-home:hover, .add-to-cart-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .cart-item-count {
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
+  /* Add these styles to your component's CSS file or global styles file */
+  
+  .go-to-cart-home {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px; /* Add margin for spacing */
+  }
+  
+  .go-to-cart-home:hover {
+    background-color: #0b7dda;
+  }
+  .btn-orange {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}

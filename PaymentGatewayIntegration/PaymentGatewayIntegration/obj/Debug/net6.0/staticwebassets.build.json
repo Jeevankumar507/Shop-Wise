@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VV++CuCNGmFCQ06jgZw4GHtCrqzUgc3G4zpm5tZH0qU=",
+  "Source": "PaymentGatewayIntegration",
+  "BasePath": "_content/PaymentGatewayIntegration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
